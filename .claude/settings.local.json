@@ -1,0 +1,41 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls -la /c/Users/TomJay/workspace/courses/claude-nextjs-starters/.env*)",
+      "Bash(find /c/Users/TomJay/workspace/courses/claude-nextjs-starters -not -path */node_modules/* -not -path */.next/* -not -path */.git/* -type f -name *.tsx -o -name *.ts -o -name *.json -o -name *.css -o -name *.mjs -o -name *.md)",
+      "mcp__context7__resolve-library-id",
+      "mcp__context7__query-docs",
+      "Bash(ls:*)",
+      "Bash(npx create-next-app@15 . --typescript --eslint --app --no-src-dir --import-alias \"@/*\" --tailwind --no-turbopack --yes)",
+      "Bash(npm install:*)",
+      "Bash(npx shadcn@latest add button card input label separator badge avatar skeleton --yes)",
+      "Bash(npx shadcn@latest add sheet dropdown-menu breadcrumb scroll-area --yes)",
+      "Bash(npx shadcn@latest add form dialog alert-dialog select switch checkbox textarea --yes)",
+      "Bash(npx shadcn@latest add sonner progress alert tooltip --yes)",
+      "Bash(npx shadcn@latest add tabs accordion table pagination popover radio-group --yes)",
+      "Bash(\"C:/Users/TomJay/workspace/courses/claude-backend-starters/temp/app/page.tsx\":*)",
+      "Bash(C:/Users/TomJay/workspace/courses/claude-backend-starters/temp/app/not-found.tsx:*)",
+      "Bash(C:/Users/TomJay/workspace/courses/claude-backend-starters/temp/.env.example:*)",
+      "Bash(C:/Users/TomJay/workspace/courses/claude-backend-starters/temp/CLAUDE.md:*)",
+      "Bash(C:/Users/TomJay/workspace/courses/claude-backend-starters/temp/README.md:*)",
+      "Bash(cd:*)",
+      "Bash(npm run:*)",
+      "Bash(npx tsc:*)",
+      "Bash(node:*)",
+      "Bash(git commit:*)",
+      "Bash(git add:*)",
+      "Bash(git push:*)",
+      "Skill(update-config)",
+      "Bash(bash --version)",
+      "Bash(curl --version)",
+      "Bash(xargs grep:*)",
+      "Bash(python3 -c \"import json; json.load\\(open\\('/c/Users/TomJay/.claude/settings.json'\\)\\); print\\('settings.json JSON 유효'\\)\")",
+      "mcp__sequential-thinking__sequentialthinking",
+      "Bash(dir /a C:/Users/TomJay/workspace/courses/claude-backend-starters/)",
+      "mcp__shadcn__view_items_in_registries",
+      "mcp__shadcn__get_item_examples_from_registries",
+      "Bash(git init:*)",
+      "Bash(git remote:*)"
+    ]
+  }
+}
